@@ -546,14 +546,13 @@ a:hover {
 }
 
 .check {
-
     display: flex;
     white-space: nowrap;
     align-items: center;
+    font-size: small;
 }
 
 label {
-
     margin-left: 10px;
     font-size: small;
 }
