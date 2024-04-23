@@ -534,10 +534,12 @@ input:focus:invalid {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin-top: 20px;
 }
 
 .a1 a {
+    display: flex;
     font-size: small;
     color: #999;
 }
@@ -551,8 +553,12 @@ a:hover {
     white-space: nowrap;
     align-items: center;
 }
+.check #me{
+    font-size: small;
+}
 
 label {
+    display: flex;
     margin-left: 10px;
     font-size: small;
     color: #999;
